@@ -6,4 +6,16 @@ body {
 
 canvas {
     background-color: #000000;
+    position: relative;
+}
+
+#restart {
+    position: absolute;
+    left: 45%;
+    width: 10%;
+    height: 50px;
+    margin-top: 275px;
+    border-radius: 5px;
+    font-size: 30px;
+    outline: none;
 }

@@ -8,14 +8,18 @@
 
         <h1>Play Snake!</h1>
         <br/>
-        <h2>Control the snake with W,A,S,D.</h2>
+        <h2>Control the snake with W,A,S,D or arrow keys</h2>
         <h2>Try to eat as many circles as possible</h2>
         <br/>
 
-        <canvas id="canvas" width="600px" height="600px;">
-            You need a differnt browser to play this snake game
-        </canvas>
+        <div id="container">
+            <canvas id="canvas" width="600px" height="600px;">
+                You need a differnt browser to play this snake game
+            </canvas>
+            <button id="restart">Play!</button>
+        </div>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script type="text/javascript" src="snakeScript.js"></script>
 
     </body>
