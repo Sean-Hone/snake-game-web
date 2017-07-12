@@ -132,3 +132,4 @@ function draw(){
         context.fillRect((xPos[i]*tileSize)+5, (yPos[i]*tileSize)+5, tileSize-10, tileSize-10);
     }
 }
+  
