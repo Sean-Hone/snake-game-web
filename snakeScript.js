@@ -23,7 +23,7 @@ $('#restart').on("click", function(){
     $('#summary').hide();
     initialiseGame();
     gameLoop = setInterval(update,100);
-})
+});  
 
 function initialiseGame(){
     xPos = [9,9,9,9,9];
