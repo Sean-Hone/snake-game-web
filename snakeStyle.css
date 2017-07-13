@@ -1,21 +1,76 @@
 body {
-    width: 960px;
+    width: 1080px;
     margin: auto;
     text-align: center;
+    background-color: #383A35;
+    color: #B4BAAA;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 76px;
+    color: #75B200;
+}
+
+h2 {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #75B200;
 }
 
 canvas {
-    background-color: #000000;
+    margin-left: 90px;
+    background-color: #2A2B28;
     position: relative;
+    border: 10px solid #51554D;
+}
+
+.play {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 #restart {
     position: absolute;
-    left: 45%;
-    width: 10%;
+    width: 180px;
     height: 50px;
     margin-top: 275px;
-    border-radius: 5px;
     font-size: 30px;
     outline: none;
+    border: none;
+    background-color: #75B200;
+    color: #383A35;
+    margin-left: -400px;
+}
+
+ #gametext {
+     position: absolute;
+     width: 600px;
+     height: 200px;
+     text-align: center;
+     margin-left: 230px;
+     margin-top: -500px;
+
+ }
+
+#highscores {
+    float: right;
+    width: 170px;
+    height: 340px;
+    text-align: center;
+    margin-left: -77px;
+    background-color: #51554D;
+    padding-top: 10px
+}
+
+#container {
+    margin-top: 5px;
 }

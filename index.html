@@ -3,20 +3,32 @@
     <head>
         <title>Snake Game</title>
         <link href="snakeStyle.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Jura:400,500,600" rel="stylesheet">
     </head>
     <body>
 
-        <h1>Play Snake!</h1>
-        <br/>
-        <h2>Control the snake with W,A,S,D or arrow keys</h2>
-        <h2>Try to eat as many circles as possible</h2>
+        <h1 class="play">PLAY SNAKE!</h1>
+        <h2>Control the snake with W,A,S,D or arrow keys.</h2>
+        <h2>Eat as many berries as possible.</h2>
         <br/>
 
         <div id="container">
             <canvas id="canvas" width="600px" height="600px;">
                 You need a differnt browser to play this snake game
             </canvas>
-            <button id="restart">Play!</button>
+            <div id="highscores">
+                <h2>Scores:</h2>
+            </div>
+            <div id="gametext">
+                <h2 id="gameover"></h2>
+                <h2 id="summary"></h2>
+            </div>
+            <button id="restart" class="play">PLAY!</button>
+
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
