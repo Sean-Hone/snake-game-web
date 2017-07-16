@@ -9,3 +9,6 @@ increments by each time you eat ta berry. Going off one edge makes you enter at 
 tail makes you lose the game. Your score is recorded on the highscores list. Only the top 5 scores stay recorded.
 
 The game behaiour is coded with javascript and jquerey. The structure done with html and the page was styled in css.
+
+Try it out here:
+https://sean-hone.github.io/SnakeGameWeb/
