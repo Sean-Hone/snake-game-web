@@ -8,4 +8,4 @@ tail makes you lose the game. Your score is recorded on the highscores list. Onl
 The game behaiour is coded with javascript and jquerey. The structure done with html and the page was styled in css.
 
 Try it out here:
-[https://sean-hone.github.io/SnakeGameWeb/](https://sean-hone.github.io/snake-game-web/)https://sean-hone.github.io/snake-game-web/
+https://sean-hone.github.io/snake-game-web/
